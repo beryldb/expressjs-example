@@ -31,6 +31,7 @@ and then install dependencies:
 ```bash
 cd expressjs-example/
 npm install
+```
 
 ## Query using curl
 
