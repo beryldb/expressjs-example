@@ -23,14 +23,24 @@ It scope is only how to set up express, dependencies and perform the simple oper
 ## Installation
 
 ```bash
-git clone https://github.com/beryldb/expressjs-example.git
+$ git clone https://github.com/beryldb/expressjs-example.git
 ```
 
 and then install dependencies:
 
 ```bash
-cd expressjs-example/
-npm install
+$ cd expressjs-example/
+$ npm install
+```
+
+## Running
+
+You can run this API by running start:
+
+```bash
+$ ./start
+Express server listening on port 3000
+Connected to BerylDB server: 127.0.0.1:6378
 ```
 
 ## Query using curl
@@ -38,7 +48,7 @@ npm install
 Let's run a basic [SET](https://docs.beryl.dev/commands/set.html):
 
 ```bash
-curl  -X POST -H 'Content-Type: application/json' -d '{"key": "hello", "value": "world"}' http://localhost:3000/tests/keys/set
+$ curl  -X POST -H 'Content-Type: application/json' -d '{"key": "hello", "value": "world"}' http://localhost:3000/tests/keys/set
 ```
 
 Should return:
