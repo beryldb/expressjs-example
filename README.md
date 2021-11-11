@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://static.beryl.dev/smaller.png">
+</p>
+
 # Expressjs-example a Express.js example using BerylDB's Node.js driver.
 
 [![Mailing List](https://img.shields.io/badge/email-google%20groups-4285F4 "beryldb@googlegroups.com")](https://groups.google.com/g/beryldb)
@@ -10,8 +14,6 @@
 If you want to learn more about BerylDB and how to install it, feel free to check our
 documentation at [docs.beryl.dev](https://docs.beryl.dev/).<br>
 Follow us on [Twitter](https://twitter.com/beryldb).
-
-![Logo](https://static.beryl.dev/smaller.png)
 
 ## QuickStart
 

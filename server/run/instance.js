@@ -10,6 +10,7 @@ require('dotenv').config();
 var express       = require('express');
 var cookieparser  = require('cookie-parser');
 var bodyparser    = require('body-parser');
+var logger        = require('morgan');
 
 var tests         = express.Router();
 var app           = express();
@@ -17,6 +18,7 @@ var app           = express();
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: false }));
 app.use(cookieparser());
+app.use(logger('dev'));
 
 var Keys             =   require('../routes/keys');
 var Lists            =   require('../routes/lists');

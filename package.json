@@ -7,7 +7,7 @@
     "test": "npm run test-unit && npm run test-integration"
   },
   "dependencies": {
-    "beryldb": "0.1.2",
+    "beryldb": "0.1.6",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "debug": "^4.3.2",
@@ -16,6 +16,7 @@
     "express": "^4.17.1",
     "locale-code": "2.0.2",
     "microtime": "3.0.0",
+    "morgan": "1.10.0",
     "promise": "^8.0.3"
   },
   "devDependencies": {
