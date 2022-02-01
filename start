@@ -1,2 +1,4 @@
 #!/bin/bash
+# Start scripts initializes bin/server and listens
+# on port 3000 by default.
 node bin/server
